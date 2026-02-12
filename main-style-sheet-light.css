@@ -13,7 +13,7 @@
 
 .body div
 {
-    background-color: white;
+    background-color: black;
     padding: 10px;
 }
 
@@ -22,19 +22,16 @@
     display: grid;
     grid-area:nav;
     grid-template-columns: repeat(8, 1fr);
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
 }
 
 .nav div
 {
-    background-color: #000;
-    border: 1px solid white;
+    background-color: white;
     padding: 10px;
     font-size: 30px;
-}
-
-.icon button
-{
-    background-color: none;
+    
 }
 
 .changing-colour-button button
@@ -42,8 +39,14 @@
     height: 100%;
     width: 100%;
     font-size: 100%;
-    background-color: white;
-    color: black
+    background-color: black;
+    color: white;
+}
+
+.icon button
+{
+    background-color: transparent;
+    border: 1px white;
 }
 
 .main-body
@@ -51,9 +54,7 @@
     display:grid;
     grid-area:content;
     grid-template-columns: auto;
-    
 }
-
 
 .main-body div
 {
@@ -70,8 +71,8 @@
 
 .footer div
 {
-    background-color: #000;
-    border: 1px solid white;
+    background-color: white;
+    border: 1px solid black;
     padding: 10px;
     font-size: 30px;
 }
