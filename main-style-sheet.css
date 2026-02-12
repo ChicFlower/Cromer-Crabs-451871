@@ -19,6 +19,15 @@
 
 div.nav
 {
+     display: grid;
      grid-area:nav;
      grid-template-columns: auto auto auto auto auto auto;
+}
+
+.nav div
+{
+    background-color: #f1f1f1;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 30px;
 }
