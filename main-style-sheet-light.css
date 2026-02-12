@@ -1,0 +1,77 @@
+.body
+{
+    display:grid;
+    grid-template-areas: 
+        "nav" 
+        "content"
+        "footer";
+    padding: 10vw;
+    grid-template-columns: auto auto;
+    gap: 0.5vw;
+    padding: 3vw;
+}
+
+.body div
+{
+    background-color: white;
+    padding: 10px;
+}
+
+.nav
+{
+    display: grid;
+    grid-area:nav;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+.nav div
+{
+    background-color: #000;
+    border: 1px solid white;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.icon button
+{
+    background-color: none;
+}
+
+.changing-colour-button button
+{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    background-color: white;
+    color: black
+}
+
+.main-body
+{
+    display:grid;
+    grid-area:content;
+    grid-template-columns: auto;
+    
+}
+
+
+.main-body div
+{
+     padding: 10px;
+     font-size: 30px;
+}
+
+.footer
+{
+     display:grid;
+     grid-area:footer;
+     grid-template-columns: auto auto auto auto auto auto auto;
+}
+
+.footer div
+{
+    background-color: #000;
+    border: 1px solid white;
+    padding: 10px;
+    font-size: 30px;
+}
