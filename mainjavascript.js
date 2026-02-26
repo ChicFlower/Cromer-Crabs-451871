@@ -7,8 +7,8 @@ function toggleTheme()
     {
       theme.setAttribute('href', 'main-style-sheet-dark.css');
       hamburger_type.setAttribute('src', 'hamburger_inverted.png');
-
     }
+    
     else
     {
         theme.setAttribute('href', 'main-style-sheet-light.css');
@@ -40,6 +40,8 @@ function openNav()
 function closeNav() 
 {
   document.getElementById("mySidenav").style.width = "0";
+  open = false;
+  mySidenav.style.zIndex = "-1";
 }
 
 // alert("hello, user");
