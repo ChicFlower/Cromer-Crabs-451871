@@ -1,3 +1,5 @@
+
+
 function toggleTheme()
 {
     let theme = document.getElementById('theme');
@@ -8,7 +10,7 @@ function toggleTheme()
       theme.setAttribute('href', 'main-style-sheet-dark.css');
       hamburger_type.setAttribute('src', 'hamburger_inverted.png');
     }
-    
+
     else
     {
         theme.setAttribute('href', 'main-style-sheet-light.css');
@@ -17,6 +19,7 @@ function toggleTheme()
 }
 
 let open = false;
+
 
 /* Set the width of the side navigation to 250px */
 function openNav() 
