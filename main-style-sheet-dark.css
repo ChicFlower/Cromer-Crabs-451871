@@ -20,6 +20,12 @@
     padding: 10px;
 }
 
+button
+{
+    height: 100%;
+    width: 100%;
+}
+
 .nav
 {
     display: grid;
@@ -33,6 +39,12 @@
     background-color: #000;
     padding: 10px;
     font-size: 30px;
+}
+
+.div button
+{
+    height:100%;
+    width:100%;
 }
 
 /* The side navigation menu */
@@ -71,14 +83,6 @@
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
-}
-
-span .line {
-    height: 15%;
-    width:80%;
-    color: white;
-    margin: 6px 0;
-    background-color: transparent;
 }
 
 .icon button

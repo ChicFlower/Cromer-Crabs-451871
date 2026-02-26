@@ -5,7 +5,6 @@
         "nav" 
         "content"
         "footer";
-    padding: 10vw;
     grid-template-columns: auto auto;
     gap: 0.5vw;
     padding: 3vw;
@@ -16,6 +15,13 @@
     background-color: black;
     padding: 10px;
 }
+
+button
+{
+    height: 100%;
+    width: 100%;
+}
+
 
 .nav
 {
@@ -45,7 +51,7 @@
     height: 100%; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
+    z-index: -1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
     background-color: #111; /* Black*/
@@ -63,6 +69,7 @@
     color: black;
     display: block;
     transition: 0.3s;
+    overflow-x: hidden;
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -79,13 +86,6 @@
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
-}
-
-span .line {
-    height: 15%;
-    width:80%;
-    margin: 6px 0;
-    background-color: black;
 }
 
 .icon button
