@@ -1,5 +1,8 @@
-*{
+*
+{
     background-color: black;
+    color: white;
+    font-family: sans-serif;
 }
 .body
 {
@@ -107,6 +110,28 @@ button
     
 }
 
+.intro
+{
+    text-align: center;
+}
+
+.videoOnFrontPage button
+{
+    max-width: 10%;
+    max-height: 10%;
+}
+
+.UpcomingAndRecentEvents
+{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: space-around;
+}
+
+.UpcomingAndRecentEvents div
+{
+    border: solid white;
+}
 
 .main-body div
 {
