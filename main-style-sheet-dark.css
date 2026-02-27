@@ -30,7 +30,7 @@ button
 {
     display: grid;
     grid-area:nav;
-    grid-template-columns: repeat(8, 1fr);
+    grid-template-columns: repeat(7, 1fr);
     border: 1px solid white;
 }
 
