@@ -143,8 +143,8 @@ button
 
 .videoOnFrontPage button
 {
-    max-width: 50%;
-    max-height: 100%;
+    width: 30%;
+    height: 5vw;
 }
 
 .UpcomingAndRecentEvents
