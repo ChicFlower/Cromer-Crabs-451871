@@ -138,14 +138,32 @@ button
 .latest_news
 {
     display: grid;
-    grid-template-columns: repeat(4, auto);
+    grid-template-areas: 
+        "latest-news-head latest-news-head latest-news-head latest-news-head"
+        "main-body main-body main-body main-body";
     justify-content: space-around;
     border:black;
 }
 
 .latest_news div
 {
-    border: solid black;
+    display: grid;
+    
+}
+
+.area
+{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    /* grid-area: main-body; */
+    border: solid black; 
+}
+
+.latest-news-head
+{
+    display: grid;
+    text-align: left;
+    grid-area: latest-news-head;
 }
 
 .footer
