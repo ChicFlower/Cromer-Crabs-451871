@@ -47,17 +47,43 @@ function closeNav()
   mySidenav.style.zIndex = "-1";
 }
 
-function openwebsite()
+// function openwebsite()
+// {
+//   let website = document.getElementById("website");
+//   if (website.getAttribute('src') == "facebooklogo.png")
+//   {
+//     window.open("https://facebook.com");
+//   }
+
+//   else if (website.getAttribute('src') == "instagramlogo.png")
+//   {
+//     window.open("https://www.instagram.com/");
+//   }
+// }
+
+function openwebsiteF()
 {
-  let website = document.getElementById("website");
-  if (website.getAttribute('src') == "facebooklogo.png")
-  {
-    window.open ("https://facebook.com")
-  }
-  else if (website.getAttribute('src') == "instagramlogo.png")
-  {
-    window.open("https://instagram.com")
-  }
+  window.open("https://facebook.com");
 }
 
+function openwebsiteI()
+{
+  window.open("https://instagram.com");
+}
+
+function openwebsiteT()
+{
+  window.open("https://twitch.com");
+}
+
+function openwebsiteTW()
+{
+  window.open("https://twitter.com");
+}
+
+
+function openwebsiteD()
+{
+  window.open("https://discord.com")
+}
 // alert("hello, user");
