@@ -41,7 +41,6 @@ button
     background-color: white;
     padding: 10px;
     font-size: 30px;
-    
 }
 
 .div button
@@ -164,6 +163,20 @@ button
     display: grid;
     text-align: left;
     grid-area: latest-news-head;
+}
+
+.social-media-links
+{
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    border: solid black;
+}
+
+.social-media-links div
+{
+    background-color: white;
+    padding: 10px;
+    font-size: 30px;
 }
 
 .footer
