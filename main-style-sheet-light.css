@@ -7,19 +7,6 @@
     --accent: #00d162; 
 }
 
-.reveal
-{
-    opacity:0;
-    transform: translateY(40px);
-    transition: all 0.6s ease;
-}
-
-.reveal.active
-{
-    opacity: 1;
-    transform: translateY(0);
-}
-
 *
 {
     color: var(--text);
@@ -195,7 +182,6 @@ button
     grid-template-areas: 
         "latest-news-head"
         "main-body";
-    justify-content: space-around;
 }
 
 .latest_news div
@@ -215,6 +201,7 @@ button
     grid-template-columns: repeat(4, 1fr);
     grid-area: main-body;
     padding: 10px;
+    justify-content: space-around;
 }
 
 .area div
