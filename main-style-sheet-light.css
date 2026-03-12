@@ -1,8 +1,32 @@
+:root
+{
+    --text: #040316; 
+    --background: #ffffff; 
+    --primary: #000000; 
+    --secondary: #9628eb; 
+    --accent: #00d162; 
+}
+
+.reveal
+{
+    opacity:0;
+    transform: translateY(40px);
+    transition: all 0.6s ease;
+}
+
+.reveal.active
+{
+    opacity: 1;
+    transform: translateY(0);
+}
+
 *
 {
-    color: black;
+    color: var(--text);
     font-family: sans-serif;
+    background-color: var(--background);
 }
+
 .body
 {
     display:grid;
@@ -17,7 +41,7 @@
 
 .body div
 {
-    background-color: black;
+    background-color: var(--background);
     padding: 10px;
 }
 
@@ -25,6 +49,7 @@ button
 {
     height: 100%;
     width: 100%;
+    border-color: var(--secondary);
 }
 
 
@@ -33,14 +58,16 @@ button
     display: grid;
     grid-area:nav;
     grid-template-columns: repeat(7, 1fr);
-    border: 1px solid black;
+    border: 2px solid var(--secondary);
 }
 
 .nav div
 {
-    background-color: white;
+    background-color: var(--background);
     padding: 10px;
     font-size: 30px;
+    
+    width: 10vw;
 }
 
 .div button
@@ -62,7 +89,7 @@ button
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-  }
+}
   
 /* The navigation menu links */
 .sidenav a 
@@ -70,10 +97,11 @@ button
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: black;
+    color: var(--text);
     display: block;
     transition: 0.3s;
     overflow-x: hidden;
+    border-color: var(--secondary);
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -95,7 +123,7 @@ button
 .icon button
 {
     background-color: transparent;
-    border: 1px white;
+    border: 2px var(--background);
 }
 
 .main-body
@@ -157,7 +185,7 @@ button
 
 .UpcomingAndRecentEvents div
 {
-    border: solid black;
+    border: 2px solid var(--secondary);
 }
 
 .latest_news
@@ -165,24 +193,14 @@ button
     display: grid;
     grid-area: latest_news;
     grid-template-areas: 
-        "latest-news-head latest-news-head latest-news-head latest-news-head"
-        "main-body main-body main-body main-body";
+        "latest-news-head"
+        "main-body";
     justify-content: space-around;
-    border:black;
 }
 
 .latest_news div
 {
     display: grid;
-    
-}
-
-.area
-{
-    display: grid;
-    grid-template-columns: repeat(4, auto);
-    /* grid-area: main-body; */
-    border: solid black; 
 }
 
 .latest-news-head
@@ -191,18 +209,34 @@ button
     text-align: left;
     grid-area: latest-news-head;
 }
+.area
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-area: main-body;
+    padding: 10px;
+}
+
+.area div
+{
+    width: 20vw;
+    border: 2px solid var(--secondary);
+}
+
+
 
 .social-media-links
 {
     display:grid;
     grid-area: social-media-links;
     grid-template-columns: repeat(5, 1fr);
-    border: solid black;
+    border-color: var(--secondary);
+
 }
 
 .social-media-links div
 {
-    background-color: white;
+    background-color: var(--background);
     padding: 10px;
     font-size: 30px;
 }
@@ -216,8 +250,8 @@ button
 
 .footer div
 {
-    background-color: white;
-    border: 1px solid black;
+    background-color: var(--background);
+    border: 2px solid var(--secondary);
     padding: 10px;
     font-size: 30px;
 }
