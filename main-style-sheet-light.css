@@ -216,9 +216,24 @@ button
 {
     display:grid;
     grid-area: social-media-links;
-    grid-template-columns: repeat(5, 1fr);
     border-color: var(--secondary);
+    grid-template-areas: 
+        "title"
+        "main";
 
+}
+
+.title
+{
+    display: grid;
+    grid-area: title;
+}
+
+.social_media_icons
+{
+    display: grid;
+    grid-area: main;
+    grid-template-columns: repeat(5, 1fr);
 }
 
 .social-media-links div

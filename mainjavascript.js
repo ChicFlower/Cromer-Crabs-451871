@@ -76,15 +76,15 @@ function openwebsiteT()
   window.open("https://twitch.com");
 }
 
-function openwebsiteTW()
+function openwebsiteD()
 {
-  window.open("https://twitter.com");
+  window.open("https://discord.com");
 }
 
 
-function openwebsiteD()
+function openwebsitett()
 {
-  window.open("https://discord.com")
+  window.open("https://tiktok.com")
 }
 // alert("hello, user");
 
