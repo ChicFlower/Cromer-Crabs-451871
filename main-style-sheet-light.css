@@ -170,9 +170,52 @@ button
     justify-content: space-around;
 }
 
-.UpcomingAndRecentEvents div
+
+.upcomingevents
 {
+    display: grid;
+    grid-template-areas: 
+        "heading"
+        "carousel";
     border: 2px solid var(--secondary);
+}
+
+
+.upcomingEventsHeading
+{
+    display: grid;
+    grid-area: heading;
+    border-bottom: 2px solid var(--secondary);
+}
+
+.carousel
+{
+    display: grid;
+    grid-area: carousel;
+}
+
+
+.recentevents
+{
+    display: grid;
+    grid-template-areas: 
+        "heading"
+        "carousel";
+    border: 2px solid var(--secondary);
+}
+
+
+.recenteventsHeading
+{
+    display: grid;
+    grid-area: heading;
+    border-bottom: 2px solid var(--secondary);
+}
+
+.carousel
+{
+    display: grid;
+    grid-area: carousel;
 }
 
 .latest_news
@@ -256,4 +299,10 @@ button
     border: 2px solid var(--secondary);
     padding: 10px;
     font-size: 30px;
+}
+
+@media (max-width: 636px) {
+  body {
+    font-size: 1px;
+  }
 }

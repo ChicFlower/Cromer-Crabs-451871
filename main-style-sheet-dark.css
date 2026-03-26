@@ -183,7 +183,6 @@ button
     grid-template-areas: 
         "latest-news-head"
         "main-body";
-    justify-content: space-around;
 }
 
 .latest_news div
@@ -203,6 +202,7 @@ button
     grid-template-columns: repeat(4, 1fr);
     grid-area: main-body;
     padding: 10px;
+    justify-content: space-around;
 }
 
 .area div
@@ -217,9 +217,24 @@ button
 {
     display:grid;
     grid-area: social-media-links;
-    grid-template-columns: repeat(5, 1fr);
     border-color: var(--secondary);
+    grid-template-areas: 
+        "title"
+        "main";
 
+}
+
+.title
+{
+    display: grid;
+    grid-area: title;
+}
+
+.social_media_icons
+{
+    display: grid;
+    grid-area: main;
+    grid-template-columns: repeat(5, 1fr);
 }
 
 .social-media-links div
@@ -242,4 +257,10 @@ button
     border: 2px solid var(--secondary);
     padding: 10px;
     font-size: 30px;
+}
+
+@media (max-width: 636px) {
+  body {
+    font-size: 1px;
+  }
 }
