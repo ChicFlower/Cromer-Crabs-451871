@@ -27,7 +27,7 @@ function openNav()
   let mySidenav = document.getElementById("mySidenav");
   if (open == false)
   {
-    mySidenav.style.width = "27vw";
+    mySidenav.style.width = "100vw";
     mySidenav.style.zIndex = "1";
     open = true;
   }

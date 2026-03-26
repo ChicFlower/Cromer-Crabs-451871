@@ -1,3 +1,7 @@
+html {
+    width: 100%;
+}
+
 :root
 {
     --text: #040316; 
@@ -22,8 +26,6 @@
         "content"
         "footer";
     grid-template-columns: auto auto;
-    gap: 0.5vw;
-    padding: 3vw;
 }
 
 .body div
@@ -37,6 +39,7 @@ button
     height: 100%;
     width: 100%;
     border-color: var(--secondary);
+    font-size: 30px;
 }
 
 
@@ -53,7 +56,6 @@ button
     background-color: var(--background);
     padding: 10px;
     font-size: 30px;
-    
     width: 10vw;
 }
 
@@ -129,14 +131,13 @@ button
 
 .main-body div
 {
-    padding: 10px;
     font-size: 30px;
 }
 
 .imageattop
 {
     display: grid;
-    grid-area:imageattop;
+    grid-area: imageattop;
     place-items: center;
 }
 
@@ -144,23 +145,45 @@ button
 {
     text-align: center;
     display: grid;
-    grid-area:intro
+    grid-area:intro;
+    width: 100%;
 }
 
 .videoOnFrontPage
 {
     display: grid;
     grid-area:videoOnFrontPage;
-    justify-content: center;
-    place-items: center;
-    
+    grid-template-areas: 
+        "video"
+        "description"
+        "ClipsButton";
+    padding: 0%;
 }
 
-.videoOnFrontPage button
+.video
 {
-    width: 30%;
-    height: 5vw;
+    display:grid;
+    grid-area: video;
+    height: 40vw;
 }
+
+.description
+{
+    display: grid;
+    grid-area: description;
+    text-align: center;
+}
+
+.ClipsButton
+{
+    display: grid;
+    grid-area: ClipsButton;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px !important;
+}
+
+
 
 .UpcomingAndRecentEvents
 {
@@ -301,8 +324,64 @@ button
     font-size: 30px;
 }
 
-@media (max-width: 636px) {
-  body {
-    font-size: 1px;
-  }
+@media only screen and (max-width: 780px)
+{
+    .sidenav
+    {
+        width: 100%;
+        text-align: center;
+    }
+    
+    h2
+    {
+        font-size: 30px;
+    }
+
+    .hamburger
+    {
+        grid-column-start: 7;
+    }
+
+   
+    
+    .profileoverviewofteam
+    {
+        display: none;
+    }
+
+    .calendar
+    {
+        display: none;
+    }
+
+    .shopfront
+    {
+        display: none;
+    }
+
+    .contactUs
+    {
+        display: none;
+    }
+
+    .clips
+    {
+        display: none;
+    }
+
+    .intro p
+    {
+        font-size: 4vw;
+    }
+
+    .intro
+    {
+        width: auto;
+        
+    }
+    
+    .upcomingevents
+    {
+        width: auto;
+    }
 }
