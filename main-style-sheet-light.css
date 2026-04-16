@@ -309,15 +309,14 @@ button
 {
     display:grid;
     grid-area:footer;
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(6, 1fr);
+    border-top: 2px solid var(--secondary);
 }
 
 .footer div
 {
     background-color: var(--background);
-    border-top: 2px solid var(--secondary);
     padding: 10px;
-    font-size: 30px;
 }
 
 .logo_in_footer
@@ -327,6 +326,20 @@ button
     width: 10vw;
 }
 
+.footer .icon
+{
+    display: grid;
+    height: 10vw;
+    width: 10vw;
+}
+
+.copyright
+{
+    display: grid;
+    height: 10vw;
+    width: 10vw;
+    font-size: 10px;
+}
 
 @media only screen and (max-width: 780px)
 {
