@@ -216,6 +216,7 @@ button
 {
     display: grid;
     grid-area: carousel;
+    justify-items: center; /* Center content horizontally */
 }
 
 
@@ -234,12 +235,6 @@ button
     display: grid;
     grid-area: heading;
     border-bottom: 2px solid var(--secondary);
-}
-
-.carousel
-{
-    display: grid;
-    grid-area: carousel;
 }
 
 .latest_news
@@ -314,16 +309,24 @@ button
 {
     display:grid;
     grid-area:footer;
-    grid-template-columns: auto auto auto auto auto auto auto;
+    grid-template-columns: repeat(7, 1fr);
 }
 
 .footer div
 {
     background-color: var(--background);
-    border: 2px solid var(--secondary);
+    border-top: 2px solid var(--secondary);
     padding: 10px;
     font-size: 30px;
 }
+
+.logo_in_footer
+{
+    display:grid;
+    height: 10vw;
+    width: 10vw;
+}
+
 
 @media only screen and (max-width: 780px)
 {

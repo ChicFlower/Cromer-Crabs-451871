@@ -84,7 +84,53 @@ function openwebsiteD()
 
 function openwebsitett()
 {
-  window.open("https://tiktok.com")
+  window.open("https://tiktok.com");
 }
 // alert("hello, user");
+
+var slideIndex = 1;
+var slideIndex2 = 1;
+showDivs(slideIndex);
+showDivs2(slideIndex2)
+
+function plusDivs(n)
+{
+  showDivs(slideIndex+=n);
+}
+
+function plusDivs2(n)
+{
+  showDivs2(slideIndex2+=n);
+}
+
+function showDivs(n)
+{
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length)
+  {
+    slideIndex = 1;
+  }
+  for (i=0; i<x.length; i++)
+  {
+    x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display="block";
+}
+
+function showDivs2(n)
+{
+  var i;
+  var x = document.getElementsByClassName("mySlides2");
+  if (n > x.length)
+  {
+    slideIndex2 = 1;
+  }
+  for (i=0; i<x.length; i++)
+  {
+    x[i].style.display = "none";
+  }
+  x[slideIndex2-1].style.display="block";
+}
+
 
