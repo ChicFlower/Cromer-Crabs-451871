@@ -5,16 +5,16 @@ function toggleTheme()
     let theme = document.getElementById('theme');
     let hamburger_type = document.getElementById('sidebarnav');
 
-    if (theme.getAttribute('href') == 'main-style-sheet-light.css')
+    if (theme.getAttribute('href') == 'index_light.css')
     {
-      theme.setAttribute('href', 'main-style-sheet-dark.css');
-      hamburger_type.setAttribute('src', 'hamburger_inverted.png');
+      theme.setAttribute('href', 'index_black.css');
+      hamburger_type.setAttribute('src', 'pictures/hamburger_inverted.png');
     }
 
     else
     {
-        theme.setAttribute('href', 'main-style-sheet-light.css');
-        hamburger_type.setAttribute('src', 'hamburger.png');
+        theme.setAttribute('href', 'index_light.css');
+        hamburger_type.setAttribute('src', 'pictures/hamburger.png');
     }
 }
 
