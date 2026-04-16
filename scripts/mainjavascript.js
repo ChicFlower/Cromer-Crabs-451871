@@ -1,5 +1,3 @@
-
-
 function toggleTheme()
 {
     let theme = document.getElementById('theme');
@@ -46,20 +44,6 @@ function closeNav()
   open = false;
   mySidenav.style.zIndex = "-1";
 }
-
-// function openwebsite()
-// {
-//   let website = document.getElementById("website");
-//   if (website.getAttribute('src') == "facebooklogo.png")
-//   {
-//     window.open("https://facebook.com");
-//   }
-
-//   else if (website.getAttribute('src') == "instagramlogo.png")
-//   {
-//     window.open("https://www.instagram.com/");
-//   }
-// }
 
 function openwebsiteF()
 {

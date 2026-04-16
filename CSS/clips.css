@@ -1,0 +1,38 @@
+html {
+    width: 100%;
+}
+.main-body
+{
+    display:grid;
+}
+
+.videoOnFrontPage
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: ". . ." ". . .";
+}
+
+.video1
+{
+    display: grid;
+    height: 10px;
+    width: 10px;
+}
+
+.video2
+{
+    display: grid;
+    height: 10px;
+    width: 10px;
+}
+
+.video3
+{
+    display:grid;
+    height: 10px;
+    width: 10px;
+}
+
+.page-content iframe {max-width: 100% !important;}
