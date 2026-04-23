@@ -1,0 +1,9 @@
+.UpcomingAndRecentEvents
+{
+    padding: 10%;
+}
+
+.upcomingEventsHeading, .recenteventsHeading
+{
+    text-align: center;
+}

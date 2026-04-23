@@ -1,7 +1,8 @@
 <head>
-    <link id = 'theme' rel="stylesheet" href="index_light.css">
+    <link id = 'theme' rel="stylesheet" href="../index_light.css">
+    <link rel = "stylesheet" href="../CSS/shopfront.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="scripts/mainjavascript.js" defer></script>
+    <script src="../scripts/mainjavascript.js" defer></script>
     <meta name="referrer" content="strict-origin-when-cross-origin">
 </head>
 
@@ -9,15 +10,15 @@
     <div class="nav">
         <!-- inital icon -->
         <div class="icon">
-            <button onclick="location.href='index.html'"><img src = "pictures/final image (1024x1024).png" width = 100%, height = 100%></button>
+            <button onclick="location.href='index.html'"><img src = "../pictures/final image (1024x1024).png" width = 100%, height = 100%></button>
         </div>
         
-        <div class="profileoverviewofteam"><button onclick="location.href='pages/profileoverviewofteam.html'">Profile Overview Of Team</button></div>
-        <div class="Calendar"><button onclick="location.href='pages/Calendar.html'">Calendar</button></div>
-        <div class="ContactUs"><button onclick="location.href='pages/ContactUs.html'">Contact Us</button></div>
-        <div class="clips"><button onclick="location.href='pages/Clips.html'">Clips</button></div>
+        <div class="profileoverviewofteam"><button onclick="location.href='profileoverviewofteam.html'">Profile Overview Of Team</button></div>
+        <div class="Calendar"><button onclick="location.href='Calendar.html'">Calendar</button></div>
+        <div class="ContactUs"><button onclick="location.href='ContactUs.html'">Contact Us</button></div>
+        <div class="clips"><button onclick="location.href='Clips.html'">Clips</button></div>
         <!-- shop front -->
-        <div class="shopfront"><button onclick="location.href='pages/shopfront.html'">Shop</button></div>
+        <div class="shopfront"><button onclick="location.href='shopfront.html'">Shop</button></div>
         <!-- All Stuff Related To Sidenav -->
         <div id="mySidenav" class="sidenav">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -28,47 +29,23 @@
             <a href="#">Contact</a>
         </div>
         <div class="icon hamburger">
-            <button onclick="openNav()"><img id = 'sidebarnav' src = "pictures/hamburger.png" height = 100% width="100%"></button>
+            <button onclick="openNav()"><img id = 'sidebarnav' src = "../pictures/hamburger.png" height = 100% width="100%"></button>
         </div>
         
     </div>
 
     <div class="main-body">
-        <div class="imageattop">
-            <br><br>
-            <img src = "pictures/final image (1024x1024).png" h = 50% width="50%">
-        </div>
-        <div class="intro">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ex erat, sodales vitae sodales ac, lobortis vel erat. Pellentesque aliquet, leo sed hendrerit commodo, nunc purus faucibus sem, nec interdum magna metus quis lacus. Mauris quis finibus neque, quis varius felis. Nulla sit amet pharetra est, placerat suscipit dui. Vivamus viverra auctor est a hendrerit. Nulla aliquet tellus in massa elementum tempor. Etiam venenatis tellus nec nunc viverra ultrices. Donec a finibus magna. Nunc erat lectus, bibendum id turpis vel, venenatis ornare dui.</p>
-
-        </div>
-        <div class="videoOnFrontPage">
-            <div class="video">
-                <iframe height=100% width=100% src="https://www.youtube.com/embed/ZV3vJNXPmTY?si=AqyyEzXrR-xdU45U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-
-            <div class="description">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ex erat, sodales vitae sodales ac, lobortis vel erat. Pellentesque aliquet, leo sed hendrerit commodo.</p>
-            </div>
-
-            <div class="ClipsButton">
-                <button onclick="location.href='pages/Clips.html'">Click Here To See More</button>
-                <br><br>
-            </div>
-        </div>
-
-
         <div class="UpcomingAndRecentEvents">
             <div class="upcomingevents">
                 <div class="upcomingEventsHeading">
-                    <h2>Upcoming Events</h2>
+                    <h2>New Arrivals</h2>
                 </div>
                 
                 <div class="carousel">
-                    <img class="mySlides" src="pictures/FaceLogo.png">
-                    <img class="mySlides" src="pictures/instalogo.png">
-                    <img class="mySlides" src="pictures/FaceLogo.png">
-                    <img class="mySlides" src="pictures/instalogo.png">
+                    <img class="mySlides" src="../pictures/FaceLogo.png">
+                    <img class="mySlides" src="../pictures/instalogo.png">
+                    <img class="mySlides" src="../pictures/FaceLogo.png">
+                    <img class="mySlides" src="../pictures/instalogo.png">
 
                     <button class="display-left" onclick="plusDivs(-1)">&#10094;</button>
                     <button class="display-right" onclick="plusDivs(+1)">&#10095;</button>
@@ -83,15 +60,15 @@
 
             <div class="recentevents">
                 <div class="recenteventsHeading">
-                    <h2>Recent Events</h2>
+                    <h2>Featured</h2>
                 </div>
                 
                 <div class="carousel">
                     <div class="carousel">
-                    <img class="mySlides2" src="pictures/FaceLogo.png">
-                    <img class="mySlides2" src="pictures/instalogo.png">
-                    <img class="mySlides2" src="pictures/FaceLogo.png">
-                    <img class="mySlides2" src="pictures/instalogo.png">
+                    <img class="mySlides2" src="../pictures/FaceLogo.png">
+                    <img class="mySlides2" src="../pictures/instalogo.png">
+                    <img class="mySlides2" src="../pictures/FaceLogo.png">
+                    <img class="mySlides2" src="../pictures/instalogo.png">
 
                     <button class="display-left" onclick="plusDivs2(-1)">&#10094;</button>
                     <button class="display-right" onclick="plusDivs2(+1)">&#10095;</button>
@@ -101,71 +78,39 @@
                     <span class="dot" onclick="currentSlide(1)"></span> 
                     <span class="dot" onclick="currentSlide(2)"></span> 
                     <span class="dot" onclick="currentSlide(3)"></span>
-                </div>
-                </div>
-                    
+                </div>   
             </div>
         </div>
-
-        <div class="latest_news">
-            <div class="latest-news-head"><h2>Latest News</h2></div>
-            <div class="area">
-                <div>a</div>
-                <div>a</div>
-                <div>a</div>
-                <div>a</div>
-            </div>
-            
-        </div>
-
-        <div class="social-media-links">
-            <div class="title">
-                <h2>Click To Go To Our Socials!</h2>
-            </div>
-            <div class="social_media_icons">
-                <div class=icon>
-                    <button onclick="openwebsiteF()"><img src="pictures/FaceLogo.png" width = 50% height = 100%></button>
-                </div>
-                <div class="icon">
-                    <button onclick="openwebsiteI()"><img src="pictures/instalogo.png" width = 50% height = 100%></button>
-                </div>
-
-                <div class="icon">
-                    <button onclick="openwebsiteT()"><img src="pictures/TwitchLogo.png" width = 50% height = 100%></button>
-                </div>
-
-                <div class="icon">
-                    <button onclick="openwebsiteD()"><img src="pictures/DiscordLogo.png" width = 50% height = 100%></button>
-                </div>
-
-                <div class="icon">
-                    <button onclick="openwebsiteTT()"><img src="pictures/TikToklogo.png" width = 50% height = 100%></button>
-                </div>
-            </div>
+        
+        <div class="clothes_available">
+            <img src="../pictures/Shirt Design 2.png" width = 100% height = 100%>
         </div>
     </div>
 
+
+ 
+
     <div class="footer">
         <div class="logo_in_footer">
-            <img src ="pictures/final image (1024x1024).png" height = 100% width = 100%>
+            <img src ="../pictures/final image (1024x1024).png" height = 100% width = 100%>
         </div>
         <div class=icon>
-            <button onclick="openwebsiteF()"><img src="pictures/FaceLogo.png" width = 50% height = 50%></button>
+            <button onclick="openwebsiteF()"><img src="../pictures/FaceLogo.png" width = 50% height = 50%></button>
         </div>
         <div class="icon">
-            <button onclick="openwebsiteI()"><img src="pictures/instalogo.png" width = 50% height = 50%></button>
-        </div>
-
-        <div class="icon">
-            <button onclick="openwebsiteT()"><img src="pictures/TwitchLogo.png" width = 50% height = 50%></button>
+            <button onclick="openwebsiteI()"><img src="../pictures/instalogo.png" width = 50% height = 50%></button>
         </div>
 
         <div class="icon">
-            <button onclick="openwebsiteD()"><img src="pictures/DiscordLogo.png" width = 50% height = 50%></button>
+            <button onclick="openwebsiteT()"><img src="../pictures/TwitchLogo.png" width = 50% height = 50%></button>
         </div>
 
         <div class="icon">
-            <button onclick="openwebsiteTT()"><img src="pictures/TikToklogo.png" width = 50% height = 50%></button>
+            <button onclick="openwebsiteD()"><img src="../pictures/DiscordLogo.png" width = 50% height = 50%></button>
+        </div>
+
+        <div class="icon">
+            <button onclick="openwebsiteTT()"><img src="../pictures/TikToklogo.png" width = 50% height = 50%></button>
         </div>
     </div>
 </body>
