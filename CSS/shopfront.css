@@ -7,3 +7,10 @@
 {
     text-align: center;
 }
+
+.clothes_available
+{
+    display: grid;
+    grid-area: clothes_available;
+    justify-items: center;
+}

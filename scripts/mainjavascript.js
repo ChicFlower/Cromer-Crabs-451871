@@ -3,16 +3,16 @@ function toggleTheme()
     let theme = document.getElementById('theme');
     let hamburger_type = document.getElementById('sidebarnav');
 
-    if (theme.getAttribute('href') == 'index_light.css')
+    if (theme.getAttribute('href') == '../index_light.css')
     {
-      theme.setAttribute('href', 'index_black.css');
-      hamburger_type.setAttribute('src', 'pictures/hamburger_inverted.png');
+      theme.setAttribute('href', '../index_black.css');
+      hamburger_type.setAttribute('src', '../pictures/hamburger_inverted.png');
     }
 
     else
     {
-        theme.setAttribute('href', 'index_light.css');
-        hamburger_type.setAttribute('src', 'pictures/hamburger.png');
+        theme.setAttribute('href', '../index_light.css');
+        hamburger_type.setAttribute('src', '../pictures/hamburger.png');
     }
 }
 
