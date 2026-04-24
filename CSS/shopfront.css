@@ -13,4 +13,24 @@
     display: grid;
     grid-area: clothes_available;
     justify-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    border: 3px solid var(--secondary);
+    grid-template-areas: 
+    "heading heading heading heading"
+    "merch merch merch merch";
+    padding: 2%;
+    margin: 2%;
+}
+
+.shirt1
+{
+    display: grid;
+    text-align: center;
+    grid-area: "merch"
+}
+
+.clothes_heading
+{
+    display: grid;
+    grid-area: heading;
 }
