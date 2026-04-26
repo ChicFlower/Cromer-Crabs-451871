@@ -56,7 +56,6 @@ button
     background-color: var(--background);
     padding: 10px;
     font-size: 30px;
-    width: 10vw;
 }
 
 .div button
@@ -119,7 +118,7 @@ button
 .main-body
 {
     display:grid;
-    grid-area:content;
+    grid-area: content;
     grid-template-columns: auto;
     grid-template-areas: 
         "imageattop"
@@ -148,7 +147,6 @@ button
     text-align: center;
     display: grid;
     grid-area:intro;
-    width: 100%;
 }
 
 .videoOnFrontPage
@@ -166,7 +164,7 @@ button
 {
     display:grid;
     grid-area: video;
-    height: 40vw;
+    height: 50vw;
 }
 
 .description
@@ -193,8 +191,14 @@ button
     grid-area: UpcomingAndRecentEvents;
     grid-template-columns: repeat(2, auto);
     justify-content: space-around;
+    width: 100vw;
 }
 
+.mySlides > img, .mySlides2 > img
+{
+    object-fit: cover;
+    max-width: 5vw;
+}
 
 .upcomingevents
 {
@@ -218,6 +222,7 @@ button
     display: grid;
     grid-area: carousel;
     justify-items: center; /* Center content horizontally */
+    object-fit: cover;
 }
 
 
@@ -283,7 +288,6 @@ button
     grid-template-areas: 
         "title"
         "main";
-
 }
 
 .title
@@ -359,8 +363,6 @@ button
     {
         grid-column-start: 7;
     }
-
-   
     
     .profileoverviewofteam
     {
@@ -390,16 +392,5 @@ button
     .intro p
     {
         font-size: 4vw;
-    }
-
-    .intro
-    {
-        width: auto;
-        
-    }
-    
-    .upcomingevents
-    {
-        width: auto;
     }
 }

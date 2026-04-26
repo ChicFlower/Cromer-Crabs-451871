@@ -70,7 +70,6 @@ function openwebsitett()
 {
   window.open("https://tiktok.com");
 }
-// alert("hello, user");
 
 var slideIndex = 1;
 var slideIndex2 = 1;
