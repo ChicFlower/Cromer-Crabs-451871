@@ -3,11 +3,29 @@ html
     width: 100%;
 }
 
+.mainbody
+{
+    display: grid;
+    grid-template-areas: 
+    "head"
+    "main";
+}
+
+.pic_heading
+{
+    display: grid;
+    grid-area: head;
+    font-size: 3vw;
+    text-align: center;
+}
+
+
+
 .the_pictures
 {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-area: videoOnFrontPage;
+    grid-area: main;
+    grid-template-columns: repeat(5, 1fr);
     /* grid-auto-flow: column; */
     margin: 0%;
     padding: 4%;
@@ -20,7 +38,23 @@ html
     justify-content: center;
     align-items: center;
     padding: 4%;
-    height: 50%;
     border: solid var(--secondary) 2px;
-    aspect-ratio: 1/1;
+}
+
+.pic1 > img, .pic2 > img, .pic3 > img, .pic4 > img, .pic5 > img, .pic6 > img, .pic7 > img
+{
+    object-fit: cover;
+    max-width: 10vw;
+}
+
+.pic6
+{
+    grid-row-start: 2;
+    grid-column-start: 2;
+}
+
+.pic7
+{
+    grid-row-start: 2;
+    grid-column-start: 4;
 }
