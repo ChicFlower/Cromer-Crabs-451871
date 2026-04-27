@@ -33,11 +33,10 @@
     margin: 2%;
 }
 
-.shirt1
+.shirt1, .shirt2, .shirt3, .shirt4
 {
     display: grid;
     text-align: center;
-    grid-area: "merch";
     border: 3px solid var(--secondary);
 }
 
@@ -45,4 +44,18 @@
 {
     display: grid;
     grid-area: heading;
+}
+
+@media only screen and (max-width: 780px)
+{
+    .clothes_available
+    {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: 
+        "heading heading"
+        "merch merch";
+        width: 80vw;
+        margin: 0%;
+        padding: 0%;
+    }
 }
