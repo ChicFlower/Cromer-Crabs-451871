@@ -3,6 +3,11 @@ html
     width: 100%;
 }
 
+.the_title
+{
+    text-align: center;
+}
+
 .the_videos
 {
     display: grid;
