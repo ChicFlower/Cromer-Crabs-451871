@@ -1,6 +1,7 @@
 .UpcomingAndRecentEvents
 {
-    padding: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
     grid-template-areas: 
     "heading heading"
     "main-body main-body";
@@ -23,14 +24,13 @@
 {
     display: grid;
     grid-area: clothes_available;
-    justify-items: center;
-    align-items: center;
+    place-items: center;
     grid-template-columns: repeat(4, 1fr);
     grid-template-areas: 
-    "heading heading heading heading"
-    "merch merch merch merch";
-    padding: 2%;
-    margin: 2%;
+    "heading heading heading heading";
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
 }
 
 .shirt1, .shirt2, .shirt3, .shirt4
@@ -38,6 +38,19 @@
     display: grid;
     text-align: center;
     border: 3px solid var(--secondary);
+    place-items: center;
+    height: 35vw;
+}
+
+.shirt1 > img, .shirt2 > img, .shirt3 > img, .shirt4 > img, .shirt1 > h2, .shirt2 > h2, .shirt3 > h2, .shirt4 > h2
+{
+    object-fit: cover;
+    max-width: 25vw;
+}
+
+h2
+{
+    font-size: 2vw;
 }
 
 .clothes_heading
@@ -55,7 +68,20 @@
         "heading heading"
         "merch merch";
         width: 80vw;
-        margin: 0%;
-        padding: 0%;
+    }
+
+    h2
+    {
+        font-size: 3vw;
+    }
+
+    .shirt1 > img, .shirt2 > img, .shirt3 > img, .shirt4 > img, .shirt1 > h2, .shirt2 > h2, .shirt3 > h2, .shirt4 > h2
+    {
+        object-fit: cover;
+    }
+
+    .shirt1, .shirt2, .shirt3, .shirt4
+    {
+        height: auto;
     }
 }
