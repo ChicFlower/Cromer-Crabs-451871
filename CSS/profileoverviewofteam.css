@@ -61,3 +61,9 @@ html
     max-width: 20vw;
     height:max-content;
 }
+
+.pic7
+{
+    display: grid;
+    grid-column-start: 2;
+}
