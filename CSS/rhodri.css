@@ -1,0 +1,43 @@
+.main
+{
+    display: grid;
+    grid-template-areas:
+    "title"
+    "alia"
+    "pd"
+    "smrg";
+    grid-template-columns: auto;
+}
+
+.title
+{
+    display: grid;
+    grid-area: title;
+    font-size: 5vw;
+    border: solid 1px var(--secondary);
+    border-top: none;
+}
+
+.alias
+{
+    display: grid;
+    grid-area: alia;
+}
+
+.pd
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.rpic
+{
+    display:grid;
+    object-fit: cover;
+    max-width: 50vw;
+}
+
+.descripton
+{
+    display: grid;
+}
