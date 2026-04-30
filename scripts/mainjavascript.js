@@ -85,7 +85,7 @@ function openwebsiteD()
 }
 
 
-function openwebsitett()
+function openwebsiteTT()
 {
   window.open("https://tiktok.com");
 }
