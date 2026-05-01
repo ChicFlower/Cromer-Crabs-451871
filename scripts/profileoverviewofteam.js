@@ -30,5 +30,5 @@ document.getElementById("ipic").addEventListener('click', function ()
 
 document.getElementById("tpic").addEventListener('click', function () 
 {
-  window.open("../pages/ty.html", "_self");
+  window.open("../pages/Kodie.html", "_self");
 });

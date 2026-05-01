@@ -18,10 +18,13 @@
     border-top: none;
 }
 
-.alias
+.alia
 {
     display: grid;
     grid-area: alia;
+    font-size: 3vw;
+    font-family: 'Times New Roman';
+    font-style: italic;
 }
 
 .pd
@@ -39,9 +42,11 @@
     max-width: 30vw;
 }
 
-.pdescripton
+.pdescription
 {
     display: grid;
+    font-size: 1.3vw;
+    text-align: center;
 }
 
 .smrg
@@ -92,6 +97,6 @@
 .pd > img
 {
     object-fit: cover;
-    max-width: 30vw;
-    max-height: 35vw;
+    width: 30vw;
+    height: 35vw;
 }
