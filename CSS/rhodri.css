@@ -28,16 +28,70 @@
 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-area: pd;
+    place-items: center;
 }
 
 .rpic
 {
     display:grid;
     object-fit: cover;
-    max-width: 50vw;
+    max-width: 30vw;
 }
 
-.descripton
+.pdescripton
 {
     display: grid;
+}
+
+.smrg
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    padding-bottom: 10%;
+}
+
+.r_sm
+{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.icon
+{
+    width: 10vw;
+    height: 10vw;
+}
+
+.UpcomingAndRecentEvents
+{
+    padding-left: 10%;
+    padding-right: 10%;
+    grid-template-areas: 
+    "heading heading"
+    "caroseul caroseul";
+    border: solid 2px var(--secondary);
+}
+
+.upcomingEventsHeading
+{
+    display: grid;
+    text-align: center;
+    grid-area: heading;
+    border: solid 2px var(--secondary);
+}
+
+.upcomingevents
+{
+    display: grid;
+    grid-area: caroseul;
+    border: solid 2px var(--secondary);
+}
+
+.pd > img
+{
+    object-fit: cover;
+    max-width: 30vw;
+    max-height: 35vw;
 }

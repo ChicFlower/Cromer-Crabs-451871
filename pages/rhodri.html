@@ -32,7 +32,7 @@
             <a href="shopfront.html">Shop Front</a>
         </div>
         <div class="icon hamburger">
-            <button onclick="openNav()"><img id = 'sidebarnav' src = "pictures/hamburger.png" height = 100% width="100%"></button>
+            <button onclick="openNav()"><img id = 'sidebarnav' src = "../pictures/hamburger.png" height = 100% width="100%"></button>
         </div>
         
     </div>
@@ -47,9 +47,55 @@
         </div>
 
         <div class="pd">
-            <img class = "rpic" src = "../pictures/team/Rhodri.jpg">
-            <div class="description">
+            <img class = "rpic" src = "../pictures/team/Rhodri.jpg" height = 100% width = 100% aspect-ratio="1/1">
+            <div class="pdescription">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec condimentum at leo ut molestie. Phasellus in tincidunt est. Vivamus finibus maximus mi, eget semper metus. Nulla neque tortor, egestas quis varius quis, scelerisque id dolor. Sed bibendum ultricies lacus, ac lacinia dui consequat ac. Donec ullamcorper, nulla eget mattis porta, mi dui sollicitudin mi, ac iaculis lorem mauris id ipsum. Suspendisse in interdum tellus, eu molestie sapien. Duis ipsum enim, venenatis non gravida non, rutrum eu turpis. Phasellus lobortis, justo finibus tincidunt pretium, tellus urna iaculis est, sed porta magna ex nec elit. Vestibulum lacinia eros et erat feugiat sagittis. Etiam pharetra enim ut condimentum fringilla. Vestibulum ornare ligula ut dui tempor, in tincidunt magna luctus. In porttitor facilisis augue, vel convallis sapien suscipit vitae. Quisque condimentum efficitur diam non mollis. Donec fringilla, magna nec fringilla laoreet, neque ante vehicula ante, dapibus bibendum sem est sit amet libero.
+            </div>
+        </div>
+
+        <div class="smrg">
+            <div class="r_sm">
+                <div class=icon>
+                    <button onclick="openwebsiteF()"><img src="../pictures/FaceLogo.png" width = 50% height = 50%></button>
+                </div>
+                <div class="icon">
+                    <button onclick="openwebsiteI()"><img src="../pictures/instalogo.png" width = 50% height = 50%></button>
+                </div>
+
+                <div class="icon">
+                    <button onclick="openwebsiteT()"><img src="../pictures/TwitchLogo.png" width = 50% height = 50%></button>
+                </div>
+
+                <div class="icon">
+                    <button onclick="openwebsiteD()"><img src="../pictures/DiscordLogo.png" width = 50% height = 50%></button>
+                </div>
+
+                <div class="icon">
+                    <button onclick="openwebsiteTT()"><img src="../pictures/TikToklogo.png" width = 50% height = 50%></button>
+                </div>
+            </div>
+
+            <div class="r_rg">
+                <div class="upcomingEventsHeading">
+                    <h2>New Arrivals</h2>
+                </div>
+                <div class="upcomingevents">
+                    <div class="carousel">
+                        <img class="mySlides" src="../pictures/Shirt_Design.png">
+                        <img class="mySlides" src="../pictures/Shirt_Design2.png">
+                        <img class="mySlides" src="../pictures/Shirt_Design.png">
+                        <img class="mySlides" src="../pictures/Shirt_Design2.png">
+
+                        <button class="display-left" onclick="plusDivs(-1)">&#10094;</button>
+                        <button class="display-right" onclick="plusDivs(+1)">&#10095;</button>
+                    </div>
+
+                    <div style="text-align:center">
+                        <span class="dot" onclick="currentSlide(1)"></span> 
+                        <span class="dot" onclick="currentSlide(2)"></span> 
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
