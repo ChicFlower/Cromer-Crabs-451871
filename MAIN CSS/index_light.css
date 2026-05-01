@@ -59,10 +59,11 @@ button
     font-size: 30px;
 }
 
-.div button
+.nav > img
 {
-    height:100%;
-    width:100%;
+    object-fit:cover;
+    width: 5vw;
+    height: 5vw;
 }
 
 /* The side navigation menu */
