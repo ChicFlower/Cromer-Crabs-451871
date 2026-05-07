@@ -112,7 +112,18 @@
     display: grid;
     font-size: 1.3vw;
     text-align: center;
-    overflow:clip;
-    height: 40vw;
-    width:30vw;
+    max-width: 30vw;
+}
+
+.mySlides > .character
+{
+    max-height: 30vw;
+    max-width: 20vw;
+    object-fit: cover;
+}
+
+.character
+{
+    padding:10px;
+    place-items: center;
 }
