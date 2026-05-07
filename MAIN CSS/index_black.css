@@ -36,28 +36,19 @@ html {
     margin: 10px;
 }
 
-
-
 .nav
 {
     display: grid;
     grid-area:nav;
     grid-template-columns: repeat(7, 1fr);
-    border: 2px solid var(--secondary);
 }
 
 .nav div
 {
     background-color: var(--background);
-    padding: 10px;
     font-size: 30px;
 }
 
-.div button
-{
-    height:100%;
-    width:100%;
-}
 
 
 /* The side navigation menu */
@@ -79,9 +70,8 @@ html {
 /* The navigation menu links */
 .sidenav a 
 {
-    padding: 8px 8px 8px 32px;
+    padding: 8px 8px 8px 8px;
     text-decoration: none;
-    font-size: 25px;
     color: var(--text);
     display: block;
     transition: 0.3s;
@@ -103,6 +93,12 @@ html {
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
+}
+
+.index_section
+{
+    border-left: 4px var(--background);
+    border-right: 4px var(--background);
 }
 
 .icon button
@@ -349,6 +345,14 @@ html {
     height: 10vw;
     width: 10vw;
     font-size: 10px;
+}
+
+button
+{
+    height: 100%;
+    width: 100%;
+    border-color: var(--secondary);
+    font-size: 30px;
 }
 
 @media only screen and (max-width: 780px)
