@@ -63,11 +63,11 @@
     grid-template-columns: repeat(5, 1fr);
 }
 
-.icon
+/* .icon
 {
     width: 10vw;
     height: 10vw;
-}
+} */
 
 .UpcomingAndRecentEvents
 {
@@ -99,4 +99,20 @@
     object-fit: cover;
     width: 30vw;
     height: 35vw;
+}
+
+.social_media_icon
+{
+    width:10vw;
+    height:10vw;
+}
+
+.mySlides
+{
+    display: grid;
+    font-size: 1.3vw;
+    text-align: center;
+    overflow:clip;
+    height: 40vw;
+    width:30vw;
 }

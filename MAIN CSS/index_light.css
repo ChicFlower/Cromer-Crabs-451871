@@ -55,16 +55,10 @@ button
 .nav div
 {
     background-color: var(--background);
-    padding: 10px;
     font-size: 30px;
 }
 
-.nav > img
-{
-    object-fit:cover;
-    width: 5vw;
-    height: 5vw;
-}
+
 
 /* The side navigation menu */
 .sidenav 
@@ -87,7 +81,6 @@ button
 {
     padding: 8px 8px 8px 8px;
     text-decoration: none;
-    font-size: 25px;
     color: var(--text);
     display: block;
     transition: 0.3s;

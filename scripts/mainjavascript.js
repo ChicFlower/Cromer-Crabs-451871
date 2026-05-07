@@ -2,6 +2,7 @@ function toggleTheme()
 {
     let theme = document.getElementById('theme');
     let hamburger_type = document.getElementById('sidebarnav');
+    let team_icon = document.getElementById('team_icon')
     const currentPath = window.location.pathname;
     if (currentPath == "/C:/Users/451871/OneDrive%20-%20The%20College%20of%20West%20Anglia/Year%201/Unit%2015/Assignments/WEB%202%20Assignment/Cromer-Crabs-451871/index.html")
     {
@@ -9,12 +10,14 @@ function toggleTheme()
       {
         theme.setAttribute('href', 'MAIN CSS/index_black.css');
         hamburger_type.setAttribute('src', 'pictures/hamburger_inverted.png');
+        team_icon.setAttribute('src', "pictures/icons/Team_Icon_DM.jpg")
       }
 
       else
       {
           theme.setAttribute('href', 'MAIN CSS/index_light.css');
           hamburger_type.setAttribute('src', 'pictures/hamburger.png');
+          team_icon.setAttribute('src', "pictures/icons/Team_Icon_LM.jpg")
       }
     }
 
@@ -24,12 +27,14 @@ function toggleTheme()
       {
         theme.setAttribute('href', '../MAIN CSS/index_black.css');
         hamburger_type.setAttribute('src', '../pictures/hamburger_inverted.png');
+        team_icon.setAttribute("src", "../pictures/icons/Team_Icon_DM.jpg")
       }
 
       else
       {
           theme.setAttribute('href', '../MAIN CSS/index_light.css');
           hamburger_type.setAttribute('src', '../pictures/hamburger.png');
+          team_icon.setAttribute("src", "../pictures/icons/Team_Icon_LM.jpg")
       }
     }
     
