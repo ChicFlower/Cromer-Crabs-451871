@@ -117,9 +117,8 @@
 
 .mySlides > .character
 {
-    max-height: 30vw;
-    max-width: 20vw;
-    object-fit: cover;
+    height: 30vw;
+    width: 20vw;
 }
 
 .character
