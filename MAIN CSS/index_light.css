@@ -156,7 +156,6 @@
     grid-area: video;
     height: 50vh;
     margin: 0%;
-    place-content: center;
 }
 
 .description
@@ -175,7 +174,7 @@
     
 }
 
-.ClipsButton, .description, .videoOnFrontPage, .intro, .imageattop
+.ClipsButton, .description, .video, .intro, .imageattop
 {
     width: 95vw;
 }

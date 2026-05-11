@@ -68,3 +68,16 @@ html
     grid-column-start: 2;
 }
 
+@media only screen and (max-width: 780px)
+{
+    .the_pictures
+    {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .name1, .name2, .name3, .name4, .name5, .name6, .name7, .pic1 > img, .pic2 > img, .pic3 > img, .pic4 > img, .pic5 > img, .pic6 > img, .pic7 > img, .social_media
+    {
+        max-width: 40vw;
+        max-height: 60vw;
+    }
+}
