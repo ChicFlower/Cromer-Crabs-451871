@@ -1,3 +1,8 @@
+.the_title
+{
+    text-align: center;
+}
+
 .sm
 {
     display: grid;
@@ -25,10 +30,11 @@
     display: grid;
     grid-template-rows: [line-name1] 20% [line-name2] 80%;
     border: 2px solid var(--secondary);
-    width: 50vw;
+    width: 40vw;
     height: 50vw;
     padding: 0%;
     margin: 0%;
     place-items: center;
     font-size: 5vw !important;
+    margin-bottom: 10vw;
 }
