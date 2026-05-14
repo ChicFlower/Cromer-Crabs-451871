@@ -49,6 +49,14 @@
     text-align: center;
 }
 
+.carousel_c
+{
+    display: grid;
+    grid-area: carousel;
+    justify-items: center;
+    object-fit: cover;
+}
+
 .smrg
 {
     display: grid;
@@ -71,14 +79,6 @@
     "heading heading"
     "caroseul caroseul";
     border: solid 2px var(--secondary);
-}
-
-.carousel_characters
-{
-    justify-items: center;
-    object-fit: cover;
-    max-width: 30vw;
-    height: 90vw;
 }
 
 .upcomingEventsHeading
