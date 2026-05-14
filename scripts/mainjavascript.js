@@ -3,6 +3,7 @@ function toggleTheme()
     let theme = document.getElementById('theme');
     let hamburger_type = document.getElementById('sidebarnav');
     let team_icon = document.getElementById('team_icon')
+    let apex2026_circuit = document.getElementById('apex2026_circuit')
     const currentPath = window.location.pathname;
     if (currentPath == "/C:/Users/451871/OneDrive%20-%20The%20College%20of%20West%20Anglia/Year%201/Unit%2015/Assignments/WEB%202%20Assignment/Cromer-Crabs-451871/index.html")
     {
@@ -11,6 +12,7 @@ function toggleTheme()
         theme.setAttribute('href', 'MAIN CSS/index_black.css');
         hamburger_type.setAttribute('src', 'pictures/hamburger_inverted.png');
         team_icon.setAttribute('src', "pictures/icons/Team_Icon_DM.jpg")
+        apex2026_circuit.setAttribute('src', 'pictures/600px-Apex_Legends_Global_Series_Challenger_Circuits_darkmode.png')
       }
 
       else

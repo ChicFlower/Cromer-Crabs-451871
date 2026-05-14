@@ -18,7 +18,6 @@ html {
     font-family: sans-serif;
     background-color: var(--background);
 }
-
 .body
 {
     display:grid;
@@ -157,8 +156,10 @@ html {
 .video
 {
     display:grid;
+    place-content: center;
     grid-area: video;
-    height: 50vw;
+    height: 80vh;
+    margin: 0%;
 }
 
 .description
@@ -177,9 +178,9 @@ html {
     
 }
 
-.ClipsButton, .description, .videoOnFrontPage, .intro, .imageattop
+.ClipsButton, .description, .video, .intro, .imageattop
 {
-    width: 98vw;
+    width: 95vw;
 }
 
 .UpcomingAndRecentEvents
@@ -353,6 +354,10 @@ button
     width: 100%;
     border-color: var(--secondary);
     font-size: 30px;
+}
+
+html {
+    width: 100%;
 }
 
 @media only screen and (max-width: 780px)

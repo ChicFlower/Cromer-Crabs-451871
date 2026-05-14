@@ -73,6 +73,14 @@
     border: solid 2px var(--secondary);
 }
 
+.carousel_characters
+{
+    justify-items: center;
+    object-fit: cover;
+    max-width: 30vw;
+    height: 90vw;
+}
+
 .upcomingEventsHeading
 {
     display: grid;
@@ -103,7 +111,6 @@
 
 .mySlides
 {
-    display: grid;
     font-size: 2vw;
     text-align: center;
     max-width: 30vw;

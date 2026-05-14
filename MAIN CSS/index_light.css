@@ -154,7 +154,7 @@
     display:grid;
     place-content: center;
     grid-area: video;
-    height: 50vh;
+    height: 80vh;
     margin: 0%;
 }
 
@@ -210,12 +210,32 @@
     grid-area: carousel;
     justify-items: center; /* Center content horizontally */
     object-fit: cover;
+    max-width: 30vw;
+    height: 70vh;
 }
 
-.carousel > img
+.mySlides, .mySlides2
 {
+    font-size: 2vw;
+    text-align: center;
+}
+
+.mySlides > .event_image
+{
+    max-width: 20vw;
     object-fit: cover;
-    width:20vw;
+}
+
+.mySlides2 > .event_image
+{
+    max-width: 20vw;
+    object-fit: cover;
+}
+
+.event_image
+{
+    padding:10px;
+    place-items: center;
 }
 
 .recentevents
