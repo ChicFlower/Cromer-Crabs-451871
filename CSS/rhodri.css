@@ -145,6 +145,12 @@
         display: block;
     }
 
-  
+    .pdescription
+    {
+        width: 80vw;
+    }
 
+    .pd > img {
+        width: 80vw;
+    }
 }

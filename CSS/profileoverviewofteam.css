@@ -49,7 +49,7 @@ html
     max-width: 20vw;
 }
 
-.RhodriPic, .MichealPic, .DannyPic, .ArchiePic, .AidenPic, .IzzyPic, .KoPic
+.RhodriPic, .MichaelPic, .DannyPic, .ArchiePic, .AidenPic, .IzzyPic, .KoPic
 {
     border: solid var(--secondary) 2px;
 }

@@ -176,7 +176,7 @@
 
 .ClipsButton, .description, .video, .intro, .imageattop
 {
-    width: 95vw;
+    width: 98vw;
 }
 
 .UpcomingAndRecentEvents
@@ -403,6 +403,12 @@ html {
         display: none;
     }
 
+    .carousel
+    {
+        max-height: 55vh;
+        width: 40vw;
+    }
+
     .calendar
     {
         display: none;
@@ -441,5 +447,10 @@ html {
     button
     {
         font-size: 3vw;
+    }
+
+    .ClipsButton, .description, .video, .intro, .imageattop
+    {
+        width: 95vw;
     }
 }
