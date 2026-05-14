@@ -5,7 +5,7 @@ function toggleTheme()
     let team_icon = document.getElementById('team_icon')
     let apex2026_circuit = document.getElementById('apex2026_circuit')
     const currentPath = window.location.pathname;
-    if (currentPath == "/C:/Users/451871/OneDrive%20-%20The%20College%20of%20West%20Anglia/Year%201/Unit%2015/Assignments/WEB%202%20Assignment/Cromer-Crabs-451871/index.html" || currentPath == 'https://chicflower.io/Cromer-Crabs-451871/')
+    if (currentPath == "/C:/Users/451871/OneDrive%20-%20The%20College%20of%20West%20Anglia/Year%201/Unit%2015/Assignments/WEB%202%20Assignment/Cromer-Crabs-451871/index.html" || currentPath == "https://chicflower.github.io/Cromer-Crabs-451871/index.html")
     {
       if (theme.getAttribute('href') == 'MAIN CSS/index_light.css')
       {
