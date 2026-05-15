@@ -20,7 +20,7 @@ document.getElementById("arpic").addEventListener('click', function ()
 
 document.getElementById("aipic").addEventListener('click', function () 
 {
-  window.open("../pages/aiden.html", "_self");
+  window.open("../pages/aidan.html", "_self");
 });
 
 document.getElementById("ipic").addEventListener('click', function () 
