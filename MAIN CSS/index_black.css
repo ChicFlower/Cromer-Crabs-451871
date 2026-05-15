@@ -149,7 +149,7 @@ html {
     grid-template-areas: 
         "video"
         "description"
-        "ClipsButton";
+        "clipsButton";
     padding: 0%;
 }
 
@@ -169,16 +169,16 @@ html {
     text-align: center;
 }
 
-.ClipsButton
+.clipsButton
 {
     display: grid;
-    grid-area: ClipsButton;
+    grid-area: clipsButton;
     justify-content: center;
     align-items: center;
     
 }
 
-.ClipsButton, .description, .video, .intro, .imageattop
+.clipsButton, .description, .video, .intro, .imageattop
 {
     width: 95vw;
 }
@@ -239,7 +239,7 @@ html {
     border-bottom: 2px solid var(--secondary);
 }
 
-.ClipsButton, .videoOnFrontPage, .intro, .imageattop, .UpcomingAndRecentEvents
+.clipsButton, .videoOnFrontPage, .intro, .imageattop, .UpcomingAndRecentEvents
 {
     padding-top: 5%;
 }
@@ -412,7 +412,7 @@ html {
         font-size: 4vw;
     }
 
-    .ClipsButton
+    .clipsButton
     {
         font-size: 10vw !important;
     }
