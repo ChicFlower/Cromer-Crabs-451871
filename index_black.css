@@ -18,6 +18,7 @@ html {
     font-family: sans-serif;
     background-color: var(--background);
 }
+
 .body
 {
     display:grid;
@@ -180,7 +181,7 @@ html {
 
 .clipsButton, .description, .video, .intro, .imageattop
 {
-    width: 95vw;
+    width: 98vw;
 }
 
 .UpcomingAndRecentEvents
@@ -214,12 +215,32 @@ html {
     grid-area: carousel;
     justify-items: center; /* Center content horizontally */
     object-fit: cover;
+    max-width: 30vw;
+    height: 70vh;
 }
 
-.carousel > img
+.mySlides, .mySlides2
 {
+    font-size: 2vw;
+    text-align: center;
+}
+
+.mySlides > .event_image
+{
+    max-width: 20vw;
     object-fit: cover;
-    width:20vw;
+}
+
+.mySlides2 > .event_image
+{
+    max-width: 20vw;
+    object-fit: cover;
+}
+
+.event_image
+{
+    padding:10px;
+    place-items: center;
 }
 
 .recentevents
@@ -387,6 +408,12 @@ html {
         display: none;
     }
 
+    .carousel
+    {
+        max-height: 55vh;
+        width: 40vw;
+    }
+
     .calendar
     {
         display: none;
@@ -425,5 +452,10 @@ html {
     button
     {
         font-size: 3vw;
+    }
+
+    .clipsButton, .description, .video, .intro, .imageattop
+    {
+        width: 95vw;
     }
 }

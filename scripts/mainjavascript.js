@@ -2,21 +2,33 @@ function toggleTheme()
 {
     let theme = document.getElementById('theme');
     let hamburger_type = document.getElementById('sidebarnav');
-    let team_icon = document.getElementById('team_icon')
-    let apex2026_circuit = document.getElementById('apex2026_circuit')
-    
+    let team_icon = document.getElementById('team_icon');
+    let apex2026_circuit = document.getElementById('apex2026_circuit');
+    let calendar_icon = document.getElementById("calendar_icon");
+    let clips_icon = document.getElementById("clips_icon");
+    let shop_icon = document.getElementById("shop_icon");
+
+
     if (theme.getAttribute('href') == 'index_light.css')
     {
       theme.setAttribute('href', 'index_black.css');
       hamburger_type.setAttribute('src', 'hamburger_inverted.png');
-      team_icon.setAttribute("src", "Team_Icon_DM.jpg")
+      team_icon.setAttribute("src", "Team_Icon_DM.jpg");
+      apex2026_circuit.setAttribute("src", "Apex_Legends_Global_Series_Challenger_Circuits_darkmode.png");
+      calendar_icon.setAttribute("src", "calendar_icon_DM");
+      clips_icon.setAttribute("src", "clips_icon_DM");
+      shop_icon.setAttribute("src", "Shop_icon_DM");
     }
 
     else
     {
         theme.setAttribute('href', 'index_light.css');
-        hamburger_type.setAttribute('src', 'pictures/..hamburger.png');
-        team_icon.setAttribute("src", "Team_Icon_LM.jpg")
+        hamburger_type.setAttribute('src', 'hamburger.png');
+        team_icon.setAttribute("src", "Team_Icon_LM.jpg");
+        apex2026_circuit.setAttribute("src", "Apex_Legends_Global_Series_Challenger_Circuits_lightmode.png");
+        calendar_icon.setAttribute("src", "calendar_icon_LM");
+        clips_icon.setAttribute("src", "clips_icon_LM");
+        shop_icon.setAttribute("src", "Shop_icon_LM");
     }
 }
     
