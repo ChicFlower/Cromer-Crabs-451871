@@ -15,7 +15,7 @@ function toggleTheme()
     else
     {
         theme.setAttribute('href', 'index_light.css');
-        hamburger_type.setAttribute('src', 'pictures/hamburger.png');
+        hamburger_type.setAttribute('src', 'pictures/..hamburger.png');
         team_icon.setAttribute("src", "Team_Icon_LM.jpg")
     }
 }
