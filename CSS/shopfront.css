@@ -89,4 +89,14 @@ h2
     {
         height: auto;
     }
+
+    .carousel
+    {
+        height: 30vh;
+    }
+
+    .mySlides, .mySlides2
+    {
+        width:30vw;
+    }
 }

@@ -217,6 +217,7 @@ html {
     object-fit: cover;
     max-width: 30vw;
     height: 70vh;
+    grid-template-rows: [line-name1] 80% [line-name2] 10% [line-name3] 10%;
 }
 
 .mySlides, .mySlides2
@@ -393,6 +394,7 @@ html {
     {
         font-size: 3vw;
     }
+
     h2
     {
         font-size: 3vw;
