@@ -33,6 +33,11 @@
     padding-bottom: 10%;
 }
 
+.carousel
+{
+    height: 45vh;
+}
+
 .shirt1, .shirt2, .shirt3, .shirt4
 {
     display: grid;
