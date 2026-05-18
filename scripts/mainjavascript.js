@@ -9,14 +9,14 @@ function toggleTheme()
     {
       theme.setAttribute('href', 'index_black.css');
       hamburger_type.setAttribute('src', 'hamburger_inverted.png');
-      team_icon.setAttribute("src", "pictures/icons/Team_Icon_DM.jpg")
+      team_icon.setAttribute("src", "Team_Icon_DM.jpg")
     }
 
     else
     {
         theme.setAttribute('href', 'index_light.css');
         hamburger_type.setAttribute('src', 'pictures/hamburger.png');
-        team_icon.setAttribute("src", "pictures/icons/Team_Icon_LM.jpg")
+        team_icon.setAttribute("src", "Team_Icon_LM.jpg")
     }
 }
     
